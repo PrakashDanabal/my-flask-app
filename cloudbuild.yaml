@@ -5,7 +5,7 @@ steps:
   args: ['push', 'gcr.io/$PROJECT_ID/my-flask-app']
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
-  args: ['run', 'deploy', 'my-flask-service', '--image', 'gcr.io/$PROJECT_ID/my-flask-app', '--region', 'us-east1'] # Replace 'your-region' with your actual region
+  args: ['run', 'deploy', 'my-flask-service', '--image', 'gcr.io/$PROJECT_ID/my-flask-app', '--region', 'asia-south2'] # Replace 'your-region' with your actual region
 options:
   logging: NONE
 
